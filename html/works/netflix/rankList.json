@@ -1,0 +1,55 @@
+{
+    "ranking":[{
+        "title":"시지프스",
+        "rank":"1",
+        "img":"/works/netflix/images/rank1.jpg",
+        "view":"150,000"
+    },{
+        "title":"빈센조",
+        "rank":"2",
+        "img":"/works/netflix/images/rank2.jpg",
+        "view":"120,000"
+    },{
+        "title":"귀멸의칼날",
+        "rank":"3",
+        "img":"/works/netflix/images/rank3.jpg",
+        "view":"100,000"
+    },{
+        "title":"진격의거인",
+        "rank":"4",
+        "img":"/works/netflix/images/rank4.jpg",
+        "view":"80,000"
+    },{
+        "title":"원더우먼",
+        "rank":"5",
+        "img":"/works/netflix/images/rank5.jpg",
+        "view":"74,000"
+    },{
+        "title":"안녕?나야",
+        "rank":"6",
+        "img":"/works/netflix/images/rank6.jpg",
+        "view":"65,000"
+    },{
+        "title":"겨우 서른",
+        "rank":"7",
+        "img":"/works/netflix/images/rank7.jpg",
+        "view":"55,000"
+    },{
+        "title":"승리호",
+        "rank":"8",
+        "img":"/works/netflix/images/rank8.jpg",
+        "view":"50,000"
+    },{
+        "title":"1호가 될순없어",
+        "rank":"9",
+        "img":"/works/netflix/images/rank9.jpg",
+        "view":"40,000"
+    },{
+        "title":"아는형님",
+        "rank":"10",
+        "img":"/works/netflix/images/rank10.jpg",
+        "view":"30,000"
+    }
+    
+    ]
+}

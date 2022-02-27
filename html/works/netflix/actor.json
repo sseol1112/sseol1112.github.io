@@ -1,0 +1,23 @@
+{
+    "actorList" : [{
+        "nickname" : "일레븐",
+        "name":"밀리 바비<br>브라운",
+        "img":"/works/netflix/images/actor1.jpg"
+    },{
+        "nickname" : "마이크",
+        "name":"핀<br> 울프하드",
+        "img":"/works/netflix/images/actor2.jpg"
+    },{
+        "nickname" : "더스틴",
+        "name":"게이튼<br>마타라조",
+        "img":"/works/netflix/images/actor3.jpg"
+    },{
+        "nickname" : "윌",
+        "name":"노아<br>슈나프",
+        "img":"/works/netflix/images/actor4.jpg"
+    },{
+        "nickname" : "루카스",
+        "name":"케일럽<br>맥러플린",
+        "img":"/works/netflix/images/actor5.jpg"
+    }]
+}

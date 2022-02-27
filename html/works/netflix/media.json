@@ -1,0 +1,75 @@
+{
+    "mediaList":[{
+        "title":"HER",
+        "img":"/works/netflix/images/cont0.jpg",
+        "img_alt":"이미지",
+        "ratio":"45%",
+        "subtit":"S1 : E1",
+        "page_url":""
+    },{
+        "title":"시지프스",
+        "img":"/works/netflix/images/rank1.jpg",
+        "img_alt":"이미지",
+        "ratio":"85%",
+        "subtit":"S1 : E1",
+        "page_url":""
+    },{
+        "title":"귀멸의칼날",
+        "img":"/works/netflix/images/rank3.jpg",
+        "img_alt":"이미지",
+        "ratio":"25%",
+        "subtit":"S1 : E1",
+        "page_url":""
+    },{
+        "title":"진격의거인",
+        "img":"/works/netflix/images/rank4.jpg",
+        "img_alt":"이미지",
+        "ratio":"45%",
+        "subtit":"S1 : E1",
+        "page_url":""
+    },{
+        "title":"WONDER WOMAN",
+        "img":"/works/netflix/images/rank5.jpg",
+        "img_alt":"이미지",
+        "ratio":"25%",
+        "subtit":"S1 : E1",
+        "page_url":""
+    },{
+        "title":"안녕? 나야!",
+        "img":"/works/netflix/images/rank6.jpg",
+        "img_alt":"이미지",
+        "ratio":"10%",
+        "subtit":"S1 : E1",
+        "page_url":""
+    },{
+        "title":"겨우, 서른",
+        "img":"/works/netflix/images/rank7.jpg",
+        "img_alt":"이미지",
+        "ratio":"55%",
+        "subtit":"S1 : E1",
+        "page_url":""
+    },{
+        "title":"승리호",
+        "img":"/works/netflix/images/rank8.jpg",
+        "img_alt":"이미지",
+        "ratio":"30%",
+        "subtit":"S1 : E1",
+        "page_url":""
+    },{
+        "title":"1호가될순없어",
+        "img":"/works/netflix/images/rank9.jpg",
+        "img_alt":"이미지",
+        "ratio":"10%",
+        "subtit":"S1 : E1",
+        "page_url":""
+    },{
+        "title":"아는형님",
+        "img":"/works/netflix/images/rank10.jpg",
+        "img_alt":"이미지",
+        "ratio":"35%",
+        "subtit":"S1 : E1",
+        "page_url":""
+    }
+    
+    ]
+}

@@ -1,0 +1,420 @@
+/* 분기마다의 폰트나 여백은 최대한 맞춰주면 좋다 */
+
+
+
+/* 실제 콘텐 + 100px */
+@media screen and (max-width: 1300px) {
+
+/* header */
+
+/* main */
+
+/* .main_article*/
+.main_article .vis_banner .txt_wrap{width: 550px;}
+.main_article .vis_banner .txt_wrap h2{  font-size: 52px;}
+/* .media_wrap  */
+.media_wrap{width: 100%;}
+.media_wrap .swiper-container h2{
+  padding: 0 40px;
+}
+.media_wrap h2{
+  text-align: center;
+}
+/* dstory_wrap */
+.grid-item, .grid-sizer{width: 25%;}
+
+/* event_warp */
+
+.event_wrap .swiper_box .left_banner{
+  width: 100%;
+}
+.event_wrap .swiper_box .right_banner{
+  display: none;
+}
+/* footer */
+.footer address{width: 946px; margin:0 auto;}
+.footer .inner{width: 100%;}
+}
+
+/* 5px (x) */
+/* ~~~~~~~~~~~~~~~~~~~ */
+@media screen and (max-width: 1100px) {
+/* header */
+.header .gnb a{display: none;}
+.sub_wrap{
+  width: 50%;
+}
+
+/*intro_wrap*/
+.cont_area.on{
+  height: auto;
+  position: relative;
+  padding: 80px 20px;
+}
+.cont_area.on .bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+}
+.cont_wrap .cont_area .inner{
+  position: relative;
+  top:auto;
+  left:auto;
+  transform: translateX(0);
+}
+.cont_wrap .cont_area .inner .img_wrap{
+  margin:auto;
+}
+.cont_wrap .cont_area .box_con {
+  width: calc(50% - 5px);
+  float: left;
+}
+.cont_wrap .cont_area .box_con:nth-child(2n){
+  float: right;
+}
+.cont_wrap .cont_area .box_con .imgbox{
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.cont_wrap .cont_area .box_wrap1{
+  position: relative;
+  top:auto;
+  left:auto;
+  right: auto;
+}
+.cont_wrap .cont_area .box_wrap2{
+  position: relative;
+  top:auto;
+  left:auto;
+  right: auto;
+
+}
+.cont_wrap .cont_area .box_wrap3{
+  position: relative;
+  top:auto;
+  left:auto;
+  right: auto;
+}
+.cont_wrap .cont_area .box_wrap4{
+  position: relative;
+  top:auto;
+  left:auto;
+  right: auto;
+}
+/* .intro_wrap .box{
+  position: relative;
+  top:0;
+  left:0;
+} */
+
+.exhibits_wrap .wrap{
+  width: 100%;
+  padding:0 30px;
+}
+
+/* media_wrap */
+.media_wrap .media_list{
+  width: 100%;
+  padding:0 50px;
+}
+/* footer */
+.footer .inner{ width: 900px; }
+.footer address{width: 700px; }
+}
+
+/* 테블릿 */
+@media screen and (max-width: 1024px) {
+  /* .main_article*/
+  .main_article .vis_banner .txt_wrap{width: 400px;}
+  .main_article .vis_banner .txt_wrap h2{  font-size: 45px;}
+  .main_article .vis_banner .txt_wrap p{font-size:24px; text-indent:0;}
+
+  /*intro_wrap*/
+  .intro_wrap h2,.exhibits_wrap h2,.media_wrap span{font-size:80px; letter-spacing: -5px;}
+  .tab_wrap ul li{font-size:28px;}
+
+  /*media_wrap*/
+  .media_wrap .media_list{
+    width: 100%;
+  }
+  /* footer */
+  .footer .inner{ width: 700px; }
+  .footer address{width: 500px; }
+
+  /*left_article */
+  .left_article {padding:100px 0 150px;}
+  .left_article .sec1 .txt_area{padding-left: 120px;}
+  .left_article .swiper-container{padding-left: 120px;}
+
+  /*right_article*/
+  .right_article {padding:100px 0 150px;}
+  .right_article .sec1 .gallery_wrap{padding-left: 120px;}
+  .right_article .sec1 .pic_list .swiper-container{padding-left: 120px;}
+
+}
+
+/* 모바일 대대적인 변화 보통
+ 1줄 or 2줄  */
+/* 모바일 에서는 타이틀 38px
+중타이틀 18
+일반 폰트 14~12
+여백 사이드 여백 15 20이정도 주면 좋습니다.
+320로 테스트 320에서 잘나오면 다잘나오는것
+
+*/
+@media screen and (max-width: 835px) {
+  /* media_wrap */
+  
+}
+@media screen and (max-width: 768px) {
+  .more_btn{
+    max-width: 140px;
+    padding:17px 10px;
+    font-size:14px;
+  }
+  /* gnb */
+  .header{line-height: 50px;}
+  .header .logo{
+    width: 80px;
+    background-size:100%;
+    height: 18px;
+    top:26px;
+    left:13px;
+  }
+  .header .swiper_head {width: 100%; margin-top:50px; }
+  .header .swiper_head .swiper-slide-prev{width: 0;}
+  .header .swiper_head .swiper-slide-next{width: 0;}
+  .header .swiper_head .btn{width: 20x; height: 20px;}
+  .header .swiper_head .btn.prev{left: calc(50% - 40px);}
+  .header .swiper_head .btn.next{left: calc(50% + 58px);}
+ 
+
+  /* .main_article*/
+  .main_article .vis_banner .txt_wrap{width: 100%;}
+  .main_article .vis_banner .txt_wrap h2{  font-size: 38px;
+  word-break: keep-all;}
+  .main_article .vis_banner .txt_wrap p{font-size:18px;}
+  .main_article .vis_banner .more_btn{
+    font-size:14px;
+    padding:14px;
+    width: 150px;
+  }
+
+  .main_article .vis_banner .left_cont{
+    top:90%;
+    font-size:14px;
+  }
+  .main_article .vis_banner .right_cont{
+    top:90%;
+    font-size:14px;
+  }
+
+  /*intro_wrap */
+  .intro_wrap{
+    padding: 50px 0;
+  }
+  .tab_wrap ul li{
+    float:none;
+    text-align:center;
+    line-height: 1.2;
+    padding:10px 0;
+    font-size: 20px;
+  }
+  .cont_wrap .cont_area .img_wrap, .cont_wrap .cont_area .imgbox{
+    width: 100%;
+  }
+  .cont_wrap .cont_area .txt_wrap{
+    line-height: 1.2;
+  }
+  .cont_wrap .cont_area .txt_wrap strong {
+    font-size:20px;
+    padding-bottom: 10px;
+  }
+  .cont_wrap .cont_area .txt_wrap em{
+    font-size:12px;
+  }
+  .cont_wrap .cont_area .box_con{
+    width: 100%;
+    float:none;
+  }
+  .cont_wrap .cont_area .box_con .imgbox{
+    height: 120px;
+  }
+  .intro_wrap .more_btn{
+    margin-top: 40px;
+  }
+  
+  /* exhibits_wrap */
+  .exhibits_wrap{
+    padding: 25px 0 50px;
+  }
+  .exhibits_wrap .wrap{
+    padding:0 10px;
+    height:300px;
+  }
+  /* exhibits_wrap strong */
+  .exhibits_wrap strong{
+    font-size:28px;
+  }
+  
+  .exhibits_wrap .txt_wrap p{
+    font-size:12px;
+    line-height: 18px;
+  }
+  .exhibits_wrap .more_btn{
+    margin-top: 50px;
+  }
+
+
+  /*media_wrap*/
+  .media_wrap .media_list{
+    padding: 0 10px;
+  }
+  .media_wrap .swiper-slide a{
+    padding-bottom: 80%;
+  }
+  .media_wrap .txt_wrap{
+    padding: 20px;
+  }
+  .media_wrap .txt_wrap strong{
+    font-size:18px;
+  }
+  .media_wrap h2{
+    font-size: 38px;
+  }
+
+  /* D STORY */
+  .dstory_wrap{
+    padding:100px 10px;
+  }
+  .dstory_wrap .txt_wrap h2{
+    font-size:38px;
+  }
+  .button-group{
+    font-size:16px;
+    display: block;
+  }
+  .button-group .button{
+    
+    padding:20px 0;
+    width:100%;
+    margin:0;
+    font-size:14px;
+    float: left;
+  }
+  .button-group .button:first-child{
+    border-radius: 0;
+  }
+  .button-group .button:last-child{
+    border-radius: 0;
+  }
+  
+  .grid-item, .grid-sizer{
+    width: 50%;
+    padding: 2.5px;
+  }
+  .grid-item .txt_wrap em{
+    font-size:12px;
+  }
+  .grid-item .txt_wrap strong{
+    font-size:14px;
+    line-height: 18px;
+    word-break: keep-all;
+    margin-top:5px;
+  }
+  /* event_wrap */
+  .event_wrap{
+    padding: 10px;
+  }
+  .event_wrap .swiper_box{
+    padding:25px 0;
+  }
+  .event_wrap .swiper_box .left_banner{
+    height: 600px;
+  }
+
+  /*left_article*/
+  .left_article .sec1 .txt_area{
+    line-height: 1.2;
+  }
+  .left_article .sec1 .txt_area{
+    padding:0 20px;
+  }
+  .left_article .swiper-container{
+    padding:20px;
+  }
+  .left_article .sec1 .txt_area h2{
+    font-size:38px;
+    padding-bottom: 10px;
+  }
+  .left_article .sec1 .txt_area p{
+    font-size:18px;
+    line-height: 28px;
+  }
+  .left_article .sec1 .txt_area .more_btn{
+    width: 200px;
+    font-size:13px;
+    padding:9px 10px;
+  }
+  .left_article .sec1 .img_area .swiper-slide{
+    width: 200px;
+  }
+
+  .left_article .sec1 .img_area .swiper-slide .txt_wrap{
+    padding:15px;
+    min-height: 100px;
+  }
+
+  /*right_article*/
+  .right_article{
+    padding:100px 0 150px;
+  }
+  .right_article .sec1 .gallery_wrap{
+    padding:0 20px;
+  }
+  .right_article .sec1 .gallery h2{
+    font-size: 38px;
+    padding-bottom: 10px;
+    line-height: 1.2;
+
+  }
+  .right_article .sec1 .gallery em{
+    font-size:14px;
+    line-height: 20px;
+  }
+  .right_article .sec1 .gal_head a{
+    font-size: 38px;
+  }
+  .right_article .sec1 .pic_list .swiper-container{
+    padding: 20px;
+  }
+  .right_article .sec1 .pic_list .swiper-slide{
+    width: 200px;
+  }
+  .right_article .sec1 .pic_list .swiper-slide .img_wrap{
+    height: 290px;
+  }
+  .right_article .sec1 .gal_list li .pic_list{
+    padding-top: 10px;
+  }
+  .event_wrap h2{
+    font-size: 38px;
+  }
+   /* footer */
+   .footer_logo::before{
+    top:-30px;
+   }
+   .footer .inner{ width: 100%; padding:20px 20px;}
+   .footer .sub_footer li{width: 100%;}
+   .footer .inner .policy{display: none;}
+   .footer .inner .policy li:nth-child(2)::after{width: 0; height: 0;}
+   .footer .sub_footer li{
+     line-height: 25px;
+     font-size: 14px;
+   }
+   
+   .footer address{width: 100%;}
+  }

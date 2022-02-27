@@ -651,5 +651,5 @@ footer{
 
 /*swiper.min.css*/
 .swiper-horizontal>.swiper-scrollbar {
-    position: relative !important;
+    position: relative !important; /*220227 추가*/
 }

@@ -2,18 +2,18 @@ $(function(){
  var swiper = new Swiper('.main_vis .swiper-container', {
     pagination: {
       el: '.main_vis .swiper-pagination',
-      clickable: true,
+      clickable: true
     }
   });
 
   var main_banner = new Swiper('.main_banner .swiper-container', {
       pagination: {
           el: '.main_banner .swiper-pagination',
-          clickable: true,
+          clickable: true
     }
   });
   var sub_banner = new Swiper('.sub_banner .swiper-container', {
-      direction: 'vertical',
+      direction: 'vertical'
   });
   
   main_banner.controller.control = sub_banner ;
@@ -26,7 +26,7 @@ $(function(){
       spaceBetween: 10,
       navigation: {
           nextEl: '.best_wrap .next',
-          prevEl: '.best_wrap .prev',
+          prevEl: '.best_wrap .prev'
       },
 
   })
@@ -38,7 +38,7 @@ $(function(){
       observer: true,
       observeParents: true,
       scrollbar: {
-          el: '.scroll_book .swiper-scrollbar',
+          el: '.scroll_book .swiper-scrollbar'
           // hide: true,
       },
       

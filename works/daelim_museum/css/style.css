@@ -822,6 +822,7 @@ border-radius: 5px;overflow: hidden;}
     width: 100%;
     background: #222;
     padding: 100px;
+    display: none;
 }
 .event_wrap h2{
     font-size:64px;
@@ -1059,7 +1060,7 @@ border-radius: 5px;overflow: hidden;}
     padding:20px 0;
     color:#fff;
     font-size: 12px;
-    text-align: right;
+    text-align: left;
 }
 .right_article .more_btn{
     position: absolute;

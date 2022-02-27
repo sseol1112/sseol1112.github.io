@@ -276,6 +276,7 @@ font-family: 'Poppins', sans-serif;
 }
 .ban_wrap{
     position: relative;
+    overflow: hidden;
 }
 .ban_wrap::before{
     content:"COS";
@@ -454,6 +455,7 @@ font-family: 'Poppins', sans-serif;
 .scroll_best .btn.next{right:-70px;}
 .scroll_best .swiper-slide{
     position: relative;
+    overflow: hidden;
 }
 
 .scroll_best .swiper-slide img{
@@ -490,6 +492,7 @@ font-family: 'Poppins', sans-serif;
 .scroll_book .swiper-container.on{display: block;}
 .scroll_book .swiper-slide{
     width: 350px;
+    overflow: hidden;
 }
 
 .scroll_book .swiper-scrollbar{
@@ -644,4 +647,9 @@ footer{
 }
 .footer_bottom ul li a strong{
     color:black;
+}
+
+/*swiper.min.css*/
+.swiper-horizontal>.swiper-scrollbar {
+    position: relative !important;
 }

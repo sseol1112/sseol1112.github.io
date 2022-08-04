@@ -26,17 +26,17 @@ $(function(){
       ogList();
       actorList();
 
-      $(".all").click(function(){
-          
-          $.ajax({
-              url:"rankList.json",
-              datatype:"json",
-              type:"get",
-              success : function(data){
+      $(".all").click(function(e){
+            e.preventDefault();
+            $.ajax({
+                url:"rankList.json",
+                datatype:"json",
+                type:"get",
+                success : function(data){
                     
-                  
-                  resultHtml1 += "<ul>"
-                  for(var i=0; i<data.ranking.length;i++){
+                    
+                    resultHtml1 += "<ul>"
+                    for(var i=0; i<data.ranking.length;i++){
                     resultHtml1 += "<li>";
                     resultHtml1 += "<div class='txt_wrap'>";
                     resultHtml1 += "<em>"+data.ranking[i].rank+"</em>";
@@ -44,16 +44,16 @@ $(function(){
                     resultHtml1 += "<p>"+"<span>"+data.ranking[i].view+"</span>"+" views</p>"  
                     resultHtml1 += "</div>";
                     resultHtml1 += "</li>";
-                  } 
-                  resultHtml1 += "</ul>"
-                  $('#rank ul li').css("display","");
-                  rankList.innerHTML = resultHtml1;
-                  $('.all').hide();
-              },
-              error : function(){
-                  console.log("error!")
-              }
-          })
+                    } 
+                    resultHtml1 += "</ul>"
+                    $('#rank ul li').css("display","");
+                    rankList.innerHTML = resultHtml1;
+                    $('.all').hide();
+                },
+                error : function(){
+                    console.log("error!")
+                }
+            })
       })
       
 
@@ -211,8 +211,10 @@ $(function(){
                 resultHtml5 += "<div class='swiper-wrapper'>";
                 for(var i=0; i<data.actorList.length;i++){
                     resultHtml5 += "<div class='swiper-slide'>";
-                    resultHtml5 += "<div class='img_wrap'><img src='"+data.actorList[i].img+"' alt='이미지'>"+"</div>";
-                    resultHtml5 += "<div class='txt_wrap'><strong>"+data.actorList[i].nickname+"</strong><span>"+data.actorList[i].name+"</span></div>";
+                    resultHtml5 += "    <a href='javascript:;'>";
+                    resultHtml5 += "        <div class='img_wrap'><img src='"+data.actorList[i].img+"' alt='이미지'>"+"</div>";
+                    resultHtml5 += "        <div class='txt_wrap'><strong>"+data.actorList[i].nickname+"</strong><span>"+data.actorList[i].name+"</span></div>";
+                    resultHtml5 += "    </a>"
                     resultHtml5 += "</div>";
                 }
                 resultHtml5 += "</div>";
